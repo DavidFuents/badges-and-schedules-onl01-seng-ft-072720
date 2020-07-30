@@ -28,6 +28,7 @@ def printer
   
   array.each do |attendee|
     batch_badge_creator[attendee] << personal_message
+    assign_rooms[attendee]
     binding.pry
     puts personal_message[counter]
   end
