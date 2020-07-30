@@ -26,13 +26,13 @@ def printer(array)
   badges = []
   rooms = []
   
- array.each do |badges|
-    batch_badge_creator[attendee] << badges
+ array.each do |message|
+    batch_badge_creator(array)[message] << badges
     
-    assign_rooms[attendee] << personal_message
+   
     binding.pry
-    puts personal_message[counter]
   end
+  true
 end
     
     
