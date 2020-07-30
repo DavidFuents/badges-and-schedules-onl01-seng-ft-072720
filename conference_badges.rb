@@ -22,7 +22,7 @@ def assign_rooms(array)
   return list_of_rooms
 end
 
-def printer(array)
+def printer
   personal_message = []
   
   array.each do |attendee|
