@@ -16,8 +16,8 @@ def assign_rooms(array)
   list_of_rooms = []
   
   array.each do |speaker|
-    list_of_rooms << "Hello, #{name}! You'll be assigned to room #{speaker}!"
-    counter -= 1
+    list_of_rooms << "Hello, #{speaker}! You'll be assigned to room #{num_of_rooms}!"
+    num_of_rooms -= 1
   end
   return list_of_rooms
 end
