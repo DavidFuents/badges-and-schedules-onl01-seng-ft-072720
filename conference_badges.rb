@@ -24,12 +24,13 @@ end
 
 def printer
   personal_message = []
+  counter = 0
   
   array.each do |attendee|
-    batch_badge_creator(array).index[attendee] << personal_message
+    batch_badge_creator.index[attendee] << personal_message
     binding.pry
+    puts personal_message[counter]
   end
-    return true
 end
     
     
