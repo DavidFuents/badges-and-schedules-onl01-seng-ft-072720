@@ -23,10 +23,12 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  personal_message = []
+  badges = []
+  rooms = []
   
-  while counter > array.length
-    batch_badge_creator[attendee] << personal_message
+ array.each do |badges|
+    batch_badge_creator[attendee] << badges
+    
     assign_rooms[attendee] << personal_message
     binding.pry
     puts personal_message[counter]
