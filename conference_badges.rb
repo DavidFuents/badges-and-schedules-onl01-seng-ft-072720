@@ -23,9 +23,11 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  array.each do |message|
-  puts batch_badge_creator(array)
-  puts assign_rooms(array)
+  personal_message = []
+  
+  array.each do |attendee|
+    puts array.index[attendee] << batch_badge_creator(array)
+    binding.pry
 end
     
     
