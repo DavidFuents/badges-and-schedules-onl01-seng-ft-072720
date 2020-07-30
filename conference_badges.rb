@@ -11,3 +11,7 @@ def batch_badge_creator(array)
   return badge_messages
 end
 
+def assign_rooms(array)
+  num_of_rooms = 7
+  array.each do |room|
+    
