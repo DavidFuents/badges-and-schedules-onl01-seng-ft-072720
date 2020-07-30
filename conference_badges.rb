@@ -19,7 +19,8 @@ def assign_rooms(array)
     list_of_rooms << "Hello, #{speaker}! You'll be assigned to room #{num_of_rooms}!"
     num_of_rooms -= 1
     if list_of_rooms == 0 
-    
+      break
+    end 
   end
   return list_of_rooms
 end
