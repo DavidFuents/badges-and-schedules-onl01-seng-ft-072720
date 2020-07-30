@@ -26,7 +26,7 @@ def printer(array)
   personal_message = []
   
   array.each do |attendee|
-    puts batch_badge_creator(array).index[attendee] << batch_badge_creator(array)
+    puts batch_badge_creator(array).index[attendee] << personal_message
     binding.pry
 end
     
