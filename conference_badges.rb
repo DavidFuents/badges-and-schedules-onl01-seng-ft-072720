@@ -22,15 +22,8 @@ def assign_rooms(array)
   return list_of_rooms
 end
 
-def printer(array)
-  badges = []
-  rooms = []
-  
- array.each do |message|
-    batch_badge_creator(array)[message] << badges
-    binding.pry
-  end
-  true
+def printer()
+
 end
     
     
