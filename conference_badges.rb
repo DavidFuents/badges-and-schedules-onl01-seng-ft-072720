@@ -22,11 +22,10 @@ def assign_rooms(array)
   return list_of_rooms
 end
 
-def printer
+def printer(array)
   personal_message = []
-  counter = 0
   
-  array.each do |attendee|
+  while counter > array.length
     batch_badge_creator[attendee] << personal_message
     assign_rooms[attendee] << personal_message
     binding.pry
