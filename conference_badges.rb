@@ -28,6 +28,7 @@ def printer(array)
   array.each do |attendee|
     puts batch_badge_creator(array).index[attendee] << personal_message
     binding.pry
+  end
     return true
 end
     
