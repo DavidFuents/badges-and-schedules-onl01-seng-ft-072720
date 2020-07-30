@@ -28,8 +28,6 @@ def printer(array)
   
  array.each do |message|
     batch_badge_creator(array)[message] << badges
-    
-   
     binding.pry
   end
   true
