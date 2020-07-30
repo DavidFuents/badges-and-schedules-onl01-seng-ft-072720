@@ -27,7 +27,7 @@ def printer
   counter = 0
   
   array.each do |attendee|
-    batch_badge_creator.index[attendee] << personal_message
+    batch_badge_creator[attendee] << personal_message
     binding.pry
     puts personal_message[counter]
   end
